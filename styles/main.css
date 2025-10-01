@@ -1,0 +1,19 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding-block: 24px;
+}
+
+main img {
+    width: 286px;
+    height: 286px;
+    object-fit: cover;
+
+    border-radius: 8px;
+    transition: scale 1.25s;
+}
+
+main img:hover {
+    scale: 1.05;
+}
